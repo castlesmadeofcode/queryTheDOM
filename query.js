@@ -2,7 +2,6 @@
 //  text with the textContent property to "Welcome to the {insert your name here} blog"
 
 const articleHeader = document.querySelector(".article__header");
-
     articleHeader.textContent = "Welcome to blog Castle";
 
 // obtain a reference to all article__header elements and change their classList property
@@ -12,7 +11,6 @@ const allArticleHeaders = document.querySelectorAll(".article__header");
 
     for(i=0; i<allArticleHeaders.length; i++) {
         allArticleHeaders[i].classList.add("important");
-
     }
     
 // Obtain a reference the element with a class of dashed and remove it.
